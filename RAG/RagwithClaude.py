@@ -27,7 +27,7 @@ COLLECTION_NAME = "my_syvilledesigns_collection"  # Arbitrary name for the Chrom
 
 # ==== 0) Check latest time that the Chroma database was updated ====
 def get_last_vdb_update():
-    file_path = os.path.join(CHROMA_DB_DIR,"chroma.sqlie3")
+    file_path = os.path.join(CHROMA_DB_DIR,"chroma.sqlite3")
     # Check if the file exists
     if os.path.exists(file_path):
         # Get the last modified time in seconds since epoch

@@ -11,3 +11,11 @@ ipykernel==6.29.1
 python-dotenv>=1.0.0
 azure-identity>=1.18.0
 azure-ai-inference
+gradio
+langchain-chroma
+anthropic
+ipywidgets
+jupyter
+PyPDF2
+langchain-text-splitters>=0.3.0
+langchain
